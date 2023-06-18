@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.last-price{
+  width: 100%;
+  background-color: red;
+  height: .08rem;
+  position: absolute;
+  top: .7rem;
+}
+.img{
+  width: 16rem !important;
+  object-fit: cover;
+}
+.price{
+  position: relative;
+  
+
+}
+.card-body{
+  position: relative;
+}
+.offer{
+  position: absolute;
+  bottom: 1rem;
+}
+.card{
+ background-color: whitesmoke;
+  width: 16rem !important;
+}
+.images{
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+}
+.images img{
+  width: 20rem;
+}
